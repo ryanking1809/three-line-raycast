@@ -1,6 +1,6 @@
 {
   "name": "three-line-raycast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Raycast function for three.js line2 that accounts for line width",
   "main": "src/index.js",
   "scripts": {

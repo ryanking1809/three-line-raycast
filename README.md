@@ -1,4 +1,4 @@
-# three-line2-raycast
+# three-line-raycast
 Raycast function for three.js `Line2` that accounts for line width
 
     npm install three-line-raycast
