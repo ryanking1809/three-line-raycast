@@ -23,7 +23,7 @@ export function LineRaycast(raycaster, intersects) {
   var vEnd = new THREE.Vector3()
   var interSegment = new THREE.Vector3()
 
-  for (var i = 0, l = startPoints.count - 1; i < l; i += 1) {
+  for (var i = 0, l = startPoints.count; i < l; i += 1) {
     vStart.set(startPoints.getX(i), startPoints.getY(i), startPoints.getZ(i))
     vEnd.set(endPoints.getX(i), endPoints.getY(i), endPoints.getZ(i))
     var precision = raycaster.linePrecision + this.material.linewidth / 2
